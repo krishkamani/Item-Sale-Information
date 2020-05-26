@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/salestitle"
+        android:text="Sales"
+        android:layout_centerHorizontal="true"
+        android:textSize="35dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+    </TextView>
+
+    <EditText
+    android:id="@+id/sales_item_name"
+    android:layout_below="@id/salestitle"
+    android:hint="Enter item name"
+    android:textSize="20dp"
+    android:inputType="text"
+    android:background="@drawable/input"
+    android:padding="8dp"
+    android:layout_marginTop="25dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/sales_year"
+        android:layout_below="@id/sales_item_name"
+        android:hint="Enter year"
+        android:textSize="20dp"
+        android:inputType="number"
+        android:background="@drawable/input"
+        android:padding="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/sales_price"
+        android:layout_below="@id/sales_year"
+        android:hint="Enter sales price"
+        android:textSize="20dp"
+        android:inputType="numberDecimal"
+        android:background="@drawable/input"
+        android:padding="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/sales_date"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sales_price"
+        android:text="Please select date"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:inputType="date"
+        android:background="@drawable/input"
+        android:padding="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"/>
+
+    <ImageButton
+        android:id="@+id/sales_date_selection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sales_price"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_toRightOf="@id/sales_date"
+        android:background="@drawable/input"
+        android:padding="8dp"
+        android:src="@android:drawable/ic_menu_my_calendar" />
+
+    <Button
+        android:id="@+id/Submit_button"
+        android:text="Submit"
+        android:background="@drawable/buttons"
+        android:textColor="@android:color/background_light"
+        android:layout_below="@id/sales_date"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/next_button"
+        android:text="Next"
+        android:background="@drawable/buttons"
+        android:textColor="@android:color/background_light"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
