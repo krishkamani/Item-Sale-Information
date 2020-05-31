@@ -88,3 +88,13 @@ data type i.e Item Name is Text type, Year is Integer type, etc. Also while upda
 in Sales table, update the TotalSalePriceYearWise column for specific item.<br>
 2) Second activity will display the data of SalesYear table using RecyclerView.<br><br>
 Use Next and Previous button for navigation between activities.
+
+## Images of Output
+
+![1](https://user-images.githubusercontent.com/52067673/83346086-27886380-a337-11ea-80d2-180ca74136f0.PNG)
+
+![2](https://user-images.githubusercontent.com/52067673/83346107-4d156d00-a337-11ea-9ce2-d93fad820577.PNG)
+
+![3](https://user-images.githubusercontent.com/52067673/83346119-63232d80-a337-11ea-942b-d865be38fc43.PNG)
+
+![4](https://user-images.githubusercontent.com/52067673/83346130-72a27680-a337-11ea-8e64-5e6b5536e7ea.PNG)
